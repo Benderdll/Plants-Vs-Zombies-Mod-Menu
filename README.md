@@ -15,8 +15,11 @@ Should open a window like this
 
 ## Download and Install
 
-Download the .zip from the release and extract it in a folder.
-It should be like this
+(sorry I can't upload the .exe, github only allows 25MB files..)
+Download the solution of Visual Studio Code. Open it, and it should open Visual Studio 2022.
+Click on Build -> Build Solution. Then, whatever you have the solution. The .exe with the "cimhui.dll" and "SDL2.dll" should be in:
+
+\bin\Release\net6.0\win-x86\publish\
 
 ![image](https://github.com/Benderdll/Plants-Vs-Zombies-Mod-Menu/assets/151942083/291e25f7-5094-46a3-850a-ffea18c9d0a4)
 
