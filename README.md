@@ -16,6 +16,7 @@ Should open a window like this
 ## Download and Install
 
 (sorry I can't upload the .exe, github only allows 25MB files..)
+
 Download the solution of Visual Studio Code. Open it, and it should open Visual Studio 2022.
 Click on Build -> Build Solution. Then, whatever you have the solution. The .exe with the "cimhui.dll" and "SDL2.dll" should be in:
 
