@@ -25,8 +25,9 @@ Now, select this option in the top of the Visual Studio.
 And now Go to Build -> Build Solution.
 
 The .exe should be in : PlantsPoliestireno\bin\x86\Release\net.6.0
-
-#### Recommended compilation
+- - -
+### ***Recommended compilation***
+- - -
 If you want a more compact final .exe you can do it with commands in the terminal ( cmd ).
 
 Open the terminal or cmd in the folder where the .sln is in.
