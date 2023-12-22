@@ -17,8 +17,29 @@ Should open a window like this
 
 (sorry I can't upload the .exe, github only allows 25MB files..)
 
-Download the solution of Visual Studio Code. Open it, and it should open Visual Studio 2022.
-Click on Build -> Build Solution. Then, whatever you have the solution. The .exe with the "cimhui.dll" and "SDL2.dll" should be in:
+Download the zip of Release. Extract it in a folder and open the PlantsPoliestireno.sln, and it should open Visual Studio 2022.
+
+### Compile
+Now, select this option in the top of the Visual Studio.
+![image](https://github.com/Benderdll/Plants-Vs-Zombies-Mod-Menu/assets/151942083/d0e9b74b-2a02-4f92-96ea-a66fc3d64daf)
+And now Go to Build -> Build Solution.
+
+The .exe should be in : PlantsPoliestireno\bin\x86\Release\net.6.0
+
+#### Recommended compilation
+If you want a more compact final .exe you can do it with commands in the terminal ( cmd ).
+
+Open the terminal or cmd in the folder where the .sln is in.
+
+Then do this command : 
+
+```bash
+dotnet publish -r win-x86 -c Release -p PublishReadyToRun=true -p:PublishSingleFile=true --self-contained
+```
+
+And then the .exe with the ```cimgui.dll``` and ```SDL2.dll``` with the .exe should be in :
+
+```PlantsPoliestireno\bin\Release\net.6.0\win-x86\publish```
 
 \bin\Release\net6.0\win-x86\publish\
 
